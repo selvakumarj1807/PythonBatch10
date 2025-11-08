@@ -1,0 +1,19 @@
+h1 {
+    color: green;
+    background-color: lightpink;
+}
+
+#id01 {
+    color: red;
+    background-color: yellow;
+}
+
+#id02 {
+    color: blue;
+    background-color: lightgray;
+}
+
+.cls01 {
+    color: purple;
+    background-color: lightgreen;
+}

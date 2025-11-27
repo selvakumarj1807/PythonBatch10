@@ -1,0 +1,2 @@
+1. Position - Sticky
+2. Float - Right, Left

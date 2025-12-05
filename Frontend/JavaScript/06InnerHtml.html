@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <p>Value 01</p>
+            </td>
+            <td>
+                <input type="text" id="v1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Value 02</p>
+            </td>
+            <td>
+                <input type="text" id="v2">
+            </td>
+    </table>
+
+    <button onclick="addTwoNum()">Add Values</button>
+
+    <br><br>
+
+    <p id="result">Result : </p>
+
+
+
+    <script>
+        function addTwoNum() {
+            val1 = document.getElementById("v1").value;
+            val2 = document.getElementById("v2").value;
+
+            result = parseFloat(val1) + parseFloat(val2);
+
+            document.getElementById("result").innerHTML = 'Result : ' + result;
+
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="external/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form id="registerForm">
+            <img src="external/images/user.jpg" class="avatar" alt="User">
+            <h2>Register</h2>
+
+            <div class="input-group">
+                <input type="text" id="name" required>
+                <label>Full Name</label>
+            </div>
+
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label>Email</label>
+            </div>
+
+            <div class="input-group">
+                <input type="password" id="password" required>
+                <label>Password</label>
+            </div>
+
+            <div class="input-group">
+                <input type="password" id="confirmPassword" required>
+                <label>Confirm Password</label>
+            </div>
+
+            <button type="submit">Register</button>
+            <p id="message"></p>
+        </form>
+    </div>
+
+    <script src="external/js/script.js"></script>
+</body>
+
+</html>
